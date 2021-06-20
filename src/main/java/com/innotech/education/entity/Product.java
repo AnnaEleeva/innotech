@@ -12,6 +12,7 @@ public class Product {
 	private String brand;
 	private String madein;
 	private float price;
+	private Long previous_id;
 
 	public Product() {
 	}
@@ -57,5 +58,11 @@ public class Product {
 	public void setPrice(float price) {
 		this.price = price;
 	}
+
+	public Long getPrevious_id() {
+		return previous_id;
+	}
+
+	public void setPrevious_id(Long previous_id) { this.previous_id = previous_id; }
 
 }

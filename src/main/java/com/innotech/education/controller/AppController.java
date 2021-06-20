@@ -25,6 +25,10 @@ public class AppController {
 		
 		return "index";
 	}
+	@RequestMapping("/hello")
+	public String deleteProduct() {
+		return "index";
+	}
 	
 	@RequestMapping("/new")
 	public String showNewProductForm(Model model) {
